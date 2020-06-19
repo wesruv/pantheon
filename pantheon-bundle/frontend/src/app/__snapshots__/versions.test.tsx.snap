@@ -144,6 +144,7 @@ exports[`Versions tests should render Versions component 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
+            validated="default"
             value=""
           >
             <FormSelectOption
@@ -160,6 +161,7 @@ exports[`Versions tests should render Versions component 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
+            validated="default"
             value=""
           >
             <FormSelectOption
@@ -182,6 +184,7 @@ exports[`Versions tests should render Versions component 1`] = `
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
+          validated="default"
           value=""
         >
           <FormSelectOption
@@ -265,14 +268,9 @@ exports[`Versions tests should render Versions component 1`] = `
               /
             </span>
           </InputGroupText>
-          <TextInput
-            aria-label={null}
-            className=""
+          <ForwardRef
             id="url-fragment"
-            isDisabled={false}
-            isReadOnly={false}
             isRequired={true}
-            isValid={true}
             onChange={[Function]}
             placeholder="Enter URL"
             type="text"
@@ -286,14 +284,9 @@ exports[`Versions tests should render Versions component 1`] = `
         label="Search keywords"
       >
         <InputGroup>
-          <TextInput
-            aria-label={null}
-            className=""
+          <ForwardRef
             id="search-keywords"
-            isDisabled={false}
-            isReadOnly={false}
             isRequired={false}
-            isValid={true}
             onChange={[Function]}
             placeholder="cat, dog, bird..."
             type="text"
